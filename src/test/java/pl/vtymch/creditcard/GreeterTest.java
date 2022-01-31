@@ -8,11 +8,11 @@ public class GreeterTest {
     @Test
     public void itGreetsByName() {
         //Arrange / Given
-        String name = "Pawel";
+        String name = "Volodymyr";
         Greeter greeter = new Greeter();
         //Act / When
         String greetingText = greeter.hello(name);
         //Assert / Then
-        assertEquals("Hello Pawel", greetingText);
+        assertEquals("Hi Val", greetingText);
     }
 }
